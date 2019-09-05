@@ -1,14 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-// import file to be used
 import Nav from './components/Nav';
+import List from './components/List';
+import Note from './components/Note';
 
 class App extends React.Component {
   render () {
     return (
       <div className = "App">
         <Nav />
+        <List />
+        <Note />
       </div>
     );
   }
