@@ -13,13 +13,14 @@ class App extends React.Component {
     this.state = {
       showNote: false,
       notes:  [],
-      note: {}
+      note: []
     };
   }
 
   toggleNote = () => {
     this.setState({
-      showNote: ! this.state.showNote
+      showNote: ! this.state.showNote,
+      note: {}
     });
   } 
 
